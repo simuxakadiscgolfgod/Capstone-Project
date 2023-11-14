@@ -1,3 +1,7 @@
+'''
+This script shows functions that were used for preprocessing data that was pulled from the government website.
+As dataset consisted of multiple json files (one for each year) - an exemplary doc string below shows the implementation of these functions for one portion of the dataset.
+'''
 import pandas as pd
 import math
 
@@ -108,7 +112,7 @@ def get_auto_info(df):
   return auto_df
 
 '''
-example of 2014 data part json clean up
+Example of 2014 data part json clean up
 
 df_14 = pd.read_json("/content/drive/MyDrive/E_2014_12_31.json")
 
